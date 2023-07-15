@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    color: whitesmoke;
+    background-color: #000000;
+  }
+  div{
+    width: 75%;
+    margin-left: 12.5%;
+    margin-top: 2rem;
+  }
+  h1, p{
+    font-family: 'Lugrasimo', cursive;
+    margin: 0;
+  }
+  h1{
+    border: solid rgb(8, 8, 180);
+    border-width: 8px 0px;
+  }
+  p{
+    font-size: 0.9em;
+  }
+  img{
+    width: 100%;
+    border: 5px solid whitesmoke;
+   }
