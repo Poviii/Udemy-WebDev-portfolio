@@ -25,7 +25,9 @@ footer {
   margin-right: 50px;
 }
 
-
+.card{
+  display: inline-block;
+}
 .left {
   float: left;
 }
