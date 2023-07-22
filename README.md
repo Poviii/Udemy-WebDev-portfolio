@@ -1,1 +1,1 @@
-Udemy FullStack WebDev Course Portfolio of Dr. Angela Yu
+Portfolio of the Udemy FullStack WebDev Course by Dr. Angela Yu   
