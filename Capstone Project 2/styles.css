@@ -1,0 +1,24 @@
+.header{
+    background: #1D5D9B;
+}
+
+.hero{
+    background: linear-gradient(180deg,#1D5D9B,#75C2F6);
+}
+.selfie{
+    border-radius: 50%;
+}
+
+body{
+    height: 100vh;
+}
+
+.intro{
+    font-weight: bold;
+}
+
+.connect{
+    text-decoration: none;
+    color: #1D5D9B;
+    font-weight: bold;
+}

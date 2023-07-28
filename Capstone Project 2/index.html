@@ -3,16 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>My Resume</title>
 </head>
 <body>
-    <div>
-        <h1>Povilas Sirutis</h1>
-        <img src="" alt="">
-        <h2>About me</h2>
-        <p>I am a 20 year old student in Denmark, learning to program, 
-            and specialising in web development</p>
-    </div>
-    <div></div>
+    <section class="header">
+        <div class="container">
+        <header class="d-flex flex-wrap justify-content-center p-3 border-bottom">
+          <a href="" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <img height="40" src="./images/Povi.png" alt="Povi logo">
+          </a>
+    
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Main</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Connect</a></li>
+          </ul>
+        </header>
+      </div>
+    </section>
+
+    <section class="hero">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./images/selfie2.jpg" class="d-block mx-lg-auto img-fluid selfie" alt="Bootstrap Themes" height="100" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 color">Hi! My name is Povilas </h1>
+            <p class="lead intro">and I am a 20 year old student in Denmark learning to code, specialising in web development.</p>
+            <p class="lead intro">I seek to design and develop websites for a living in the future, and I am determined to learn new things all the time.</p>
+            <p class="lead intro">P.S I love basketball. Hit me up if you want to <a class="connect" href="">connect</a>!</p>
+          </div>
+        </div>
+      </div> 
+    </section>
+    <section>
+
+    </section>
 </body>
 </html>
