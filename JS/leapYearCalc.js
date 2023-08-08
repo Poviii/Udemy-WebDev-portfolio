@@ -9,22 +9,22 @@ function isLeap(year) {
         return year + " Not leap year.";
     }
 }
-isLeap(2020)
+console.log(isLeap(2020))
 
 //   OR
 
- function areLeap(year) {
-        if (year % 4 === 0) {
-            if (year % 100 === 0) {
-                if (year % 400 === 0) {
-                    return "Leap year."
-                } else {
-                    return "Not leap year."
-                }
-            } else {
-                return "Leap year.";
-            }
-        } else {
-            return "Not leap year.";
-        }
-}
+//  function areLeap(year) {
+//         if (year % 4 === 0) {
+//             if (year % 100 === 0) {
+//                 if (year % 400 === 0) {
+//                     return "Leap year."
+//                 } else {
+//                     return "Not leap year."
+//                 }
+//             } else {
+//                 return "Leap year.";
+//             }
+//         } else {
+//             return "Not leap year.";
+//         }
+// }
